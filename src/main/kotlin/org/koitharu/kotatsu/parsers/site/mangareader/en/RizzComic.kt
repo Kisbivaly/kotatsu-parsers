@@ -20,7 +20,7 @@ internal class RizzComic(context: MangaLoaderContext) :
 	MangaReaderParser(context, MangaParserSource.RIZZCOMIC, "realmoasis.com", pageSize = 50, searchPageSize = 20) {
 
 	override val datePattern = "dd MMM yyyy"
-	override val listUrl = "/series"
+	override val listUrl = "/home"
 	override val availableSortOrders: Set<SortOrder> = EnumSet.of(
 		SortOrder.ALPHABETICAL,
 		SortOrder.UPDATED,
