@@ -17,7 +17,7 @@ import java.util.*
 
 @MangaSourceParser("RIZZCOMIC", "RizzComic", "en")
 internal class RizzComic(context: MangaLoaderContext) :
-	MangaReaderParser(context, MangaParserSource.RIZZCOMIC, "rizzfables.com", pageSize = 50, searchPageSize = 20) {
+	MangaReaderParser(context, MangaParserSource.RIZZCOMIC, "realmoasis.com", pageSize = 50, searchPageSize = 20) {
 
 	override val datePattern = "dd MMM yyyy"
 	override val listUrl = "/series"
